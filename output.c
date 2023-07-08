@@ -1,3 +1,0 @@
-main(){
-printf("Aman Talreja");
-}
