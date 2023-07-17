@@ -44,7 +44,7 @@ else printf("\n don't know"); // if else-if and else
     else{
         printf("grade- F");
     }
-    // Both are the same but we are removing the curly braces of else block because if-else is a single statement logicaly
+    // Both are the same but we are removing the curly braces of else block because if-else is a single statement logically
   }
 
 
