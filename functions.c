@@ -22,10 +22,34 @@ void add(int number1,int number2){
    printf("\n%d",number1+number2);
 }
 
+//TNRS
+int subtract()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    return a-b;
+}
+
+//TSRS
+int divide(int a,int b)
+{
+    return a/b;
+}
 void main()
 {
     void Multiply(void);
     void add(int,int);
+    int subtract(void);
+    int divide(int,int);
     Multiply();
     add(400,1);
+    printf("\nEnter two numbers : ");
+    int answer = subtract();
+    printf("%d",answer);
+    printf("\nEnter two numbers : ");
+    int x,y,ans2;
+    scanf("%d%d",&x,&y);
+    ans2= divide(x,y);
+    printf("%d",ans2);
+
 }
